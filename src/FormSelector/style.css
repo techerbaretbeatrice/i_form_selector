@@ -1,0 +1,77 @@
+.select-label {
+    font-size: 1em;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.selector {
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+    font-size: 1em;
+}
+
+.select svg {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.a {
+    position: relative;
+    width: 100%;
+}
+
+.select {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(120, 118, 118);
+    z-index: 999;
+}
+
+.select-height {
+    height: 45px;
+}
+
+.select-list {
+    width: 100%;
+    background: rgb(236, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1em;
+    position: absolute;
+    z-index: 1000;
+
+}
+
+ul.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+}
+
+.option-item {
+    list-style-type: none;
+}
+
+.option-item:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
